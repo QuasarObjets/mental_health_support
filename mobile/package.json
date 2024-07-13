@@ -1,0 +1,16 @@
+{
+  "name": "mental_health_support",
+  "version": "1.0.0",
+  "description": "Mobile app for mental health support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.64.2"
+  }
+}
