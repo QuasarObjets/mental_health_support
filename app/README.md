@@ -1,8 +1,8 @@
-# MindAid - Aplicación de Salud Mental - Aplicación Móvil
+# Aplicación de Salud Mental
 
 Este proyecto es una aplicación móvil que proporciona recursos de salud mental, grupos de apoyo y ayuda profesional. Está desarrollada utilizando el stack MERN (MongoDB, Express, React, Node) y React Native.
 
-## Estructura del proyecto
+## Estructura de archivos
 
 El proyecto tiene la siguiente estructura de archivos:
 
@@ -27,28 +27,35 @@ En la carpeta "app":
 - `app/package.json`: Este archivo es el archivo de configuración de npm. Lista las dependencias y scripts del proyecto.
 - `app/README.md`: Este archivo contiene la documentación para la carpeta raíz del proyecto.
 
-## Instrucciones de instalación y ejecución
+## Configuración
 
-1. Clona este repositorio.
-2. En la carpeta "api", ejecuta el siguiente comando para instalar las dependencias del servidor:
+Antes de ejecutar la aplicación, asegúrate de seguir los siguientes pasos de configuración:
+
+1. En la carpeta "api", crea un archivo llamado `.env` y configura las variables de entorno necesarias para la conexión a la base de datos MongoDB y otras configuraciones específicas de tu entorno.
+
+## Ejecución
+
+Sigue estos pasos para ejecutar la aplicación:
+
+1. En la carpeta "api", ejecuta el siguiente comando para instalar las dependencias del servidor:
    ```
    npm install
    ```
-3. En la carpeta "api", crea un archivo llamado ".env" y configura las variables de entorno necesarias.
-4. En la carpeta "api", ejecuta el siguiente comando para iniciar el servidor:
-   ```
-   npm start
-   ```
-5. En la carpeta "app", ejecuta el siguiente comando para instalar las dependencias de la aplicación móvil:
-   ```
-   npm install
-   ```
-6. En la carpeta "app", ejecuta el siguiente comando para iniciar la aplicación móvil:
+
+2. En la carpeta "api", ejecuta el siguiente comando para iniciar el servidor:
    ```
    npm start
    ```
 
-¡Listo! Ahora puedes acceder a la aplicación móvil desde tu dispositivo o emulador.
+3. En la carpeta "app", ejecuta el siguiente comando para instalar las dependencias de la aplicación móvil:
+   ```
+   npm install
+   ```
+
+4. En la carpeta "app", ejecuta el siguiente comando para iniciar la aplicación móvil:
+   ```
+   npm start
+   ```
 
 ## Contribución
 
@@ -57,11 +64,10 @@ Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 1. Haz un fork de este repositorio.
 2. Crea una rama con el nombre de tu nueva funcionalidad o mejora.
 3. Realiza los cambios necesarios en tu rama.
-4. Envía un pull request para que revisemos tus cambios.
+4. Haz un pull request a la rama principal de este repositorio.
 
-¡Agradecemos mucho tu contribución!
+¡Gracias por tu contribución!
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Puedes ver el archivo de licencia para más detalles.
-```
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
