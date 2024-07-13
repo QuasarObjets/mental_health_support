@@ -1,4 +1,4 @@
-# Mental Health Support App
+# MindAid - Apoyo de Salud Mental - Aplicación Web/Móvil
 
 Este proyecto es una aplicación móvil que proporciona recursos de salud mental, grupos de apoyo y ayuda profesional. Está desarrollado utilizando React Native y el stack MERN (MongoDB, Express, React, Node.js) con TypeScript.
 
